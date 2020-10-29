@@ -1,3 +1,9 @@
+#### 1.8.2 (2020-10-29)
+
+##### Documentation Changes
+
+* **readme:**  added sign ([c8079898](https://github.com/lob/generate-changelog/commit/c8079898fc7089f155127156caedf5f7d8f69817))
+
 #### 1.8.1 (2020-10-29)
 
 ##### Bug Fixes
