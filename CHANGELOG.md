@@ -1,3 +1,9 @@
+#### 1.8.3 (2020-10-29)
+
+##### Other Changes
+
+* **readme:**  added firefox ([12807f02](https://github.com/lob/generate-changelog/commit/12807f024c3afcbf445221d573be5adb83ea2f2c))
+
 #### 1.8.2 (2020-10-29)
 
 ##### Documentation Changes
