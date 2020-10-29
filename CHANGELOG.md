@@ -1,3 +1,9 @@
+#### 1.8.1 (2020-10-29)
+
+##### Bug Fixes
+
+* **documentation:**  quick typo fix ([#57](https://github.com/lob/generate-changelog/pull/57)) ([7e9ffd66](https://github.com/lob/generate-changelog/commit/7e9ffd66f70503b812f65a36311842b6abbd93c3))
+
 ### 1.8.0 (2019-06-25)
 
 ##### Documentation Changes
