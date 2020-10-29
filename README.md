@@ -1,5 +1,7 @@
 This is the readme version from Harikrishnan Midhun
 
+Firfox
+
 # Generate Changelog
 
 [![NPM Version](https://badge.fury.io/js/generate-changelog.svg)](https://www.npmjs.com/package/generate-changelog)
