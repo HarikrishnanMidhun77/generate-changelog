@@ -1,6 +1,6 @@
 This is the readme version from Harikrishnan Midhun
 
-Firfox
+Firfox2
 
 # Generate Changelog
 
