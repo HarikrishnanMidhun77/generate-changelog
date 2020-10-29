@@ -1,3 +1,5 @@
+This is the readme version from Harikrishnan Midhun
+
 # Generate Changelog
 
 [![NPM Version](https://badge.fury.io/js/generate-changelog.svg)](https://www.npmjs.com/package/generate-changelog)
@@ -27,23 +29,23 @@ type(category): description [flags]
 
 Where `type` is one of the following:
 
-* `breaking`
-* `build`
-* `ci`
-* `chore`
-* `docs`
-* `feat`
-* `fix`
-* `other`
-* `perf`
-* `refactor`
-* `revert`
-* `style`
-* `test`
+- `breaking`
+- `build`
+- `ci`
+- `chore`
+- `docs`
+- `feat`
+- `fix`
+- `other`
+- `perf`
+- `refactor`
+- `revert`
+- `style`
+- `test`
 
 Where `flags` is an optional comma-separated list of one or more of the following (must be surrounded in square brackets):
 
-* `breaking`: alters `type` to be a breaking change
+- `breaking`: alters `type` to be a breaking change
 
 And `category` can be anything of your choice. If you use a type not found in the list (but it still follows the same format of the message), it'll be grouped under `other`.
 
@@ -89,12 +91,14 @@ generate-changelog release/3.1.2822...release/3.1.2858
 You can write a script that calls the `generate` function and does whatever you want with the new logs:
 
 ```js
-var Changelog = require('generate-changelog');
-var Fs        = require('fs');
+var Changelog = require("generate-changelog");
+var Fs = require("fs");
 
-return Changelog.generate({ patch: true, repoUrl: 'https://github.com/lob/generate-changelog' })
-.then(function (changelog) {
-  Fs.writeFileSync('./CHANGELOG.md', changelog);
+return Changelog.generate({
+  patch: true,
+  repoUrl: "https://github.com/lob/generate-changelog",
+}).then(function (changelog) {
+  Fs.writeFileSync("./CHANGELOG.md", changelog);
 });
 ```
 
